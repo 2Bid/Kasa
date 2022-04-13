@@ -1,0 +1,56 @@
+.collapse-item{
+     width: 90%;
+     max-width: 1540px;
+     margin: 20px auto;
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
+     position: relative;
+}
+
+.toggle-container{
+     background-color: salmon;
+     color: white;
+     border-radius: 5px;
+     padding: 10px 15px;
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     cursor: pointer;
+}
+
+.toggle-container h5{
+     margin: 0;
+}
+
+.toggle-container span{
+     border: solid white;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     width: 5px;
+     height: 5px;
+     padding: 3px;
+     -webkit-transform: rotate(-45deg);
+     position: absolute;
+     top: 25%;
+     transform: rotate(225deg) translateY(-50%);
+     right: 20px;
+     transition: 0.3s;
+}
+
+.toggle-container span.active {
+     transform: rotate(45deg);
+}
+
+.texte-container{
+     background-color: #ededed;
+     border-radius: 5px;
+     height: 0;
+     transition: height 0.4s;
+}
+
+.texte-container p{
+     padding: 30px;
+     color: salmon;
+     margin: 0;
+}
