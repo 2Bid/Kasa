@@ -4,7 +4,7 @@ import './header.css'
 
 export default function Header(props) {
   return (
-    <section className='header-container'>
+    <header className='header-container'>
       <div>
         <Link to="/"><img className='header-logo' src={props.img} alt='logo kasa' /></Link>
       </div>
@@ -14,6 +14,6 @@ export default function Header(props) {
           <Link to="/about">A propos</Link>
         </nav>
       </div>
-    </section>
+    </header>
   )
 }

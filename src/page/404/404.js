@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import '../App.css'
+import './404.css'
 
 export default function E404() {
   return (

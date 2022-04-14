@@ -1,6 +1,6 @@
 .data-item-container{
-     width: calc(33.33% - 30px);
-     margin: 15px;
+     width: calc(33.33% - 50px);
+     margin: 25px;
      position: relative;
 }
 
@@ -36,26 +36,26 @@
 .data-title{
      position: absolute;
      bottom: 10px;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 80%;
-     text-align: center;
+     left: 5%;
+     max-width: 80%;
+     text-align: left;
      color: black;
      background-color: rgba(255, 255, 255, 0.6);
-     border-radius: 5px;
+     border-radius: 10px;
      padding: 5px 10px;
 }
 
 @media screen and (max-width: 1100px) {
      .data-item-container{
-          width: calc(50% - 30px);
+          width: calc(50% - 40px);
+          margin: 20px;
      }
 }
 
 @media screen and (max-width: 600px) {
      .data-item-container{
-          width: 100%;
-          margin: 15px 0 ;
+          width: calc(100% - 20px);
+          margin: 15px 10px ;
      }
 
      .data-item-container::before{

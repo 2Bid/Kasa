@@ -6,21 +6,24 @@
      flex-direction: column;
      overflow: hidden;
      position: relative;
+     height: initial;
 }
 
 .toggle-container{
-     background-color: salmon;
+     background-color: #FF6060;
      color: white;
-     border-radius: 5px;
+     border-radius: 10px;
      padding: 10px 15px;
      display: flex;
      justify-content: space-between;
      position: relative;
      cursor: pointer;
+     font-size: 20px;
 }
 
 .toggle-container h5{
      margin: 0;
+     pointer-events: none;
 }
 
 .toggle-container span{
@@ -36,6 +39,7 @@
      transform: rotate(225deg) translateY(-50%);
      right: 20px;
      transition: 0.3s;
+     pointer-events: none;
 }
 
 .toggle-container span.active {
@@ -43,14 +47,19 @@
 }
 
 .texte-container{
-     background-color: #ededed;
-     border-radius: 5px;
+     background-color: #e5e5e5;
+     border-radius: 10px;
      height: 0;
      transition: height 0.4s;
 }
 
-.texte-container p{
+.collapse-txt-container,
+.collapse-txt {
      padding: 30px;
-     color: salmon;
+     color: #FF6060;
      margin: 0;
+}
+
+.collapse-txt-container .collapse-txt {
+     padding: 5px 0;
 }

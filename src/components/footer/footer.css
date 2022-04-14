@@ -1,6 +1,17 @@
 .footer-container{
      background-color: #1a1a1a;
      color: white;
+     margin-top: 50px;
+     width: 100vw;
+     position: relative;
+     left: 50%;
+     right: 50%;
+     margin-left: -50vw;
+     margin-right: -50vw;
+}
+
+.footer-logo-container{
+     padding: 20px 0 0;
 }
 
 .footer{
