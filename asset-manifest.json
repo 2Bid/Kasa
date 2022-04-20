@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.845c8a3e.css",
-    "main.js": "/static/js/main.2d761b2f.js",
-    "static/js/787.115df530.chunk.js": "/static/js/787.115df530.chunk.js",
-    "static/media/banner.jpg": "/static/media/banner.62d4d423ade791def75f.jpg",
-    "static/media/arrow-left-solid.svg": "/static/media/arrow-left-solid.733a28408f6ec794e0fb3e6d11d90ba5.svg",
-    "static/media/arrow-right-solid.svg": "/static/media/arrow-right-solid.05009857bfb8e4e6c91c3785ca0cec99.svg",
-    "index.html": "/index.html",
-    "main.845c8a3e.css.map": "/static/css/main.845c8a3e.css.map",
-    "main.2d761b2f.js.map": "/static/js/main.2d761b2f.js.map",
-    "787.115df530.chunk.js.map": "/static/js/787.115df530.chunk.js.map"
+    "main.css": "/AxelSalenbier_11_01042022/static/css/main.845c8a3e.css",
+    "main.js": "/AxelSalenbier_11_01042022/static/js/main.e4997221.js",
+    "static/js/787.115df530.chunk.js": "/AxelSalenbier_11_01042022/static/js/787.115df530.chunk.js",
+    "static/media/banner.jpg": "/AxelSalenbier_11_01042022/static/media/banner.62d4d423ade791def75f.jpg",
+    "static/media/arrow-left-solid.svg": "/AxelSalenbier_11_01042022/static/media/arrow-left-solid.733a28408f6ec794e0fb3e6d11d90ba5.svg",
+    "static/media/arrow-right-solid.svg": "/AxelSalenbier_11_01042022/static/media/arrow-right-solid.05009857bfb8e4e6c91c3785ca0cec99.svg",
+    "index.html": "/AxelSalenbier_11_01042022/index.html",
+    "main.845c8a3e.css.map": "/AxelSalenbier_11_01042022/static/css/main.845c8a3e.css.map",
+    "main.e4997221.js.map": "/AxelSalenbier_11_01042022/static/js/main.e4997221.js.map",
+    "787.115df530.chunk.js.map": "/AxelSalenbier_11_01042022/static/js/787.115df530.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.845c8a3e.css",
-    "static/js/main.2d761b2f.js"
+    "static/js/main.e4997221.js"
   ]
 }
