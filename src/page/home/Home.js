@@ -14,7 +14,7 @@ export default function Home() {
           <main>
             <Image src={banner} txt='Chez vous, partout et ailleurs'/>
             {
-            obj.loading == false 
+            obj.loading === false 
             ?
             <div className='bloc-container'>
               {obj.data.map((dataLogement)=>{
