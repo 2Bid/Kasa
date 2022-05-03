@@ -6,7 +6,7 @@ import arrowNext from '../../images/arrow-right-solid.svg'
 
 export default function Gallery(props) {
 
-     const [slideIndex, setSlideIndex] = useState(1)
+    const [slideIndex, setSlideIndex] = useState(1)
 
     const nextSlide = () => {
         if(slideIndex !== props.img.length){
