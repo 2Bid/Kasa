@@ -14,7 +14,7 @@ export default function App() {
             <Route path="/detail"  element={<Detail />}/>
             <Route path="/detail/:id"  element={<Detail />}/>
             <Route index element={<Home/>}/>
-            <Route path="/AxelSalenbier_11_01042022/" element={<Home/>}/>
+            <Route path="/Kasa/" element={<Home/>}/>
             <Route path="*" element={<E404/>}/>
           </Route>
         </Routes>
